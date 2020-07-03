@@ -1,6 +1,5 @@
 <view class="page-body">
   <view class="page-section page-section-gap">
-    <web-view src="http://localhost:8080/#/wxmain"></web-view>
+    <web-view src="http://localhost:8080/#/wxmes"></web-view>
   </view>
 </view>
-
