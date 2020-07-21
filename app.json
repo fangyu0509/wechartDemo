@@ -1,11 +1,12 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/my/my",
     "pages/logs/logs",
-    "pages/index/index",
     "pages/find/find",
-    "pages/mes/mes"
-
+    "pages/mes/mes",
+    "pages/auth",
+    "pages/auth/auth"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -18,27 +19,31 @@
     "color": "#a9b7b7",
     "selectedColor": "#11cd6e",
     "borderStyle": "black",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "image/首页-未选中.png",
-      "selectedIconPath": "image/首页-选中.png"
-    },
-    {
-      "pagePath": "pages/find/find",
-      "text": "发现",
-      "iconPath": "image/发现-未选中.png",
-      "selectedIconPath": "image/发现-选中.png"
-    },{
-      "pagePath": "pages/mes/mes",
-      "text": "消息",
-      "iconPath": "image/interactive.png",
-      "selectedIconPath": "image/interactive_fill.png"
-    },{
-      "pagePath": "pages/my/my",
-      "text": "我的",
-      "iconPath": "image/我的-未选中.png",
-      "selectedIconPath": "image/我的-选中.png"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/首页-未选中.png",
+        "selectedIconPath": "image/首页-选中.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "image/发现-未选中.png",
+        "selectedIconPath": "image/发现-选中.png"
+      },
+      {
+        "pagePath": "pages/mes/mes",
+        "text": "消息",
+        "iconPath": "image/interactive.png",
+        "selectedIconPath": "image/interactive_fill.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/我的-未选中.png",
+        "selectedIconPath": "image/我的-选中.png"
+      }
+    ]
   }
 }
